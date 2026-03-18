@@ -1,0 +1,30 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Node
+node_modules/
+.next/
+
+# Artifacts
+backend/artifacts/*.joblib
+backend/artifacts/*.pkl
+backend/artifacts/*.npy
+backend/artifacts/*.npz
+backend/artifacts/*.csv
+backend/artifacts/*.parquet
+frontend/public/metrics.json
+
+# Data
+/data/raw/
+backend/data/*.db
+backend/data/*.db-shm
+backend/data/*.db-wal
+
+# Misc
+.DS_Store
+.env
+.env.*
