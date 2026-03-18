@@ -1,0 +1,5 @@
+{
+  "train_rows": 71236,
+  "val_rows": 15265,
+  "test_rows": 15265
+}
